@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learnify - Online Learning Platform</title>
-    <link rel="stylesheet" href="./style/style.css"/>
+    <link rel="stylesheet" href="./style/style.css" />
     <link rel="icon" href="images/learnify-mark.png" type="image/png" />
   </head>
   <body>
@@ -36,7 +36,6 @@
     </div>
 
     <main>
-
       <!-- Hero Section -->
       <section class="hero">
         <p>Learn online at your own pace</p>
@@ -65,60 +64,66 @@
         </figure>
       </section>
 
-      <section>
+      <section class="features">
         <h2>Why Learners Choose Learnify</h2>
         <p>
           Everything you need to stay focused, practice consistently, and make
           progress.
         </p>
 
-        <article>
-          <h3>Expert Instructors</h3>
-          <p>
-            Learn from professionals who teach practical skills used in real
-            workplaces.
-          </p>
-        </article>
+        <div class="features-accordion">
+          <details name="features" open>
+            <summary>Expert Instructors</summary>
+            <p>
+              Learn from professionals who teach practical skills used in real
+              workplaces.
+            </p>
+          </details>
 
-        <article>
-          <h3>Project-Based Lessons</h3>
-          <p>
-            Build portfolio-ready projects while learning concepts step by step.
-          </p>
-        </article>
+          <details name="features">
+            <summary>Project-Based Lessons</summary>
+            <p>
+              Build portfolio-ready projects while learning concepts step by
+              step.
+            </p>
+          </details>
 
-        <article>
-          <h3>Flexible Schedule</h3>
-          <p>
-            Study anytime with bite-sized videos, quizzes, assignments, and
-            notes.
-          </p>
-        </article>
+          <details name="features">
+            <summary>Flexible Schedule</summary>
+            <p>
+              Study anytime with bite-sized videos, quizzes, assignments, and
+              notes.
+            </p>
+          </details>
 
-        <article>
-          <h3>Certificates</h3>
-          <p>
-            Earn certificates you can share on your resume, LinkedIn, or
-            portfolio.
-          </p>
-        </article>
+          <details name="features">
+            <summary>Certificates</summary>
+            <p>
+              Earn certificates you can share on your resume, LinkedIn, or
+              portfolio.
+            </p>
+          </details>
+        </div>
       </section>
 
-      <section>
+      <section class="popular-courses">
         <h2>Popular Courses</h2>
         <p>Start with one of our most requested beginner-friendly programs.</p>
 
         <article>
+
+          <div>
+            <h3>Full Stack Web Development</h3>
+            <p>HTML, CSS, JavaScript, databases, APIs, and deployment.</p>
+            <p><strong>12 weeks</strong> · Beginner to Intermediate</p>
+            <button type="button">Enroll Now</button>
+          </div>
           <img
             src="images/web-development.jpg"
             alt="Web development workspace"
-            width="320"
-            height="200"
+            width="500"
+            height="500"
           />
-          <h3>Full Stack Web Development</h3>
-          <p>HTML, CSS, JavaScript, databases, APIs, and deployment.</p>
-          <p><strong>12 weeks</strong> · Beginner to Intermediate</p>
-          <button type="button">Enroll Now</button>
         </article>
 
         <article>
@@ -128,12 +133,14 @@
             width="320"
             height="200"
           />
-          <h3>Data Analytics</h3>
-          <p>
-            Spreadsheets, SQL, dashboards, statistics, and data storytelling.
-          </p>
-          <p><strong>8 weeks</strong> · Beginner</p>
-          <button type="button">Enroll Now</button>
+          <div>
+            <h3>Data Analytics</h3>
+            <p>
+              Spreadsheets, SQL, dashboards, statistics, and data storytelling.
+            </p>
+            <p><strong>8 weeks</strong> · Beginner</p>
+            <button type="button">Enroll Now</button>
+          </div>
         </article>
 
         <article>
@@ -143,13 +150,15 @@
             width="320"
             height="200"
           />
-          <h3>UI/UX Design Foundations</h3>
-          <p>
-            User research, wireframes, visual design, prototypes, and usability
-            testing.
-          </p>
-          <p><strong>10 weeks</strong> · Beginner</p>
-          <button type="button">Enroll Now</button>
+          <div>
+            <h3>UI/UX Design Foundations</h3>
+            <p>
+              User research, wireframes, visual design, prototypes, and
+              usability testing.
+            </p>
+            <p><strong>10 weeks</strong> · Beginner</p>
+            <button type="button">Enroll Now</button>
+          </div>
         </article>
       </section>
 
