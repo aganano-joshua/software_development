@@ -150,166 +150,108 @@ header {
     font-size: 14px;
 }
 
-.features{
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    gap: 18px;
-    padding: 60px 5% 32px;
-    background-color: #f7fbff;
-    border-top: 1px solid rgba(0, 0, 0, 0.065);
+.man {
+    font-size: 20px;
+    color: blue; 
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
 }
 
-.features h2{
+.man h2 {
+    font-size: 34px;
+    color:#111827;
+    line-height: normal;
+    max-width: 760px;
+}
+
+.man p {
+    text-align: left;
+    color: black;
+    line-height:1.6;
+    font-size: 16px
+
+}
+
+.man h3 {
+    text-align: left;
+    font-size: 20px;
+    color: black;
+
+}
+
+.learning-paths {
+    font-size: 20px;
+    color: red; 
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+
+.learning-paths h2 {
+    font-size: 34px;
     color: #111827;
-    font-size: 56px;
-    line-height: 1.05;
+    line-height: normal;
+    max-width: 760px;
+    text-align: center;
+
 }
 
-.features p{
-    max-width: 680px;
-    color: #4b5563;
-    font-size: 18px;
-    line-height: 1.6;
+.learning-paths p {
+    text-align: left;
+    color: black;
+    line-height:1.6;
+    font-size: 20px;
+    max-width: 200px;
+
 }
 
-.features-accordion {
+.learning-paths img {
+    width: 520px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    align-items: right;
+    
+}
+
+.learning-paths article {
     display: flex;
     flex-direction: column;
-    gap: 14px;
-    width: 100%;
-    max-width: 780px;
-    margin-top: 18px;
+    align-items: right;
+    gap: 12px;
+    margin-bottom: 32px;
+    align-items: right;
 }
 
-.features-accordion details {
-    overflow: hidden;
-    background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.065);
-    border-radius: 24px;
-}
-
-.features-accordion summary {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 22px 26px;
-    color: #111827;
-    font-size: 20px;
-    font-weight: 700;
-    cursor: pointer;
-    /* list-style: none; */
-}
-
-.features-accordion summary::-webkit-details-marker {
-    display: none;
-}
-
-.features-accordion summary::after {
-    content: "+";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    width: 34px;
-    height: 34px;
-    color: #007BFF;
-    background-color: #f7fbff;
-    border: 1px solid rgba(0, 123, 255, 0.2);
-    border-radius: 50%;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 1;
-}
-
-.features-accordion details[open] summary::after {
-    content: "-";
-}
-
-.features-accordion details[open] {
-    border-color: rgba(0, 123, 255, 0.25);
-}
-
-.features-accordion details p {
-    max-width: none;
-    padding: 0 26px 24px;
-    color: #4b5563;
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-.features-accordion summary:hover {
-    color: #007BFF;
-}
-
-.features-accordion summary:focus-visible {
-    outline: 3px solid rgba(0, 123, 255, 0.25);
-    outline-offset: -3px;
-}
-
-.popular-courses{
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    gap: 18px;
-    padding: 60px 5% 32px;
-    background-color: #f7fbff;
-    width: 100%
-    /* border-top: 1px solid rgba(0, 0, 0, 0.065); */
-}
-
-.popular-courses h2{
-    color: #111827;
-    font-size: 56px;
-    line-height: 1.05;
-}
-
-.popular-courses p{
-    max-width: 680px;
-    color: #4b5563;
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-.popular-courses article div button {
+.learning-paths button {
     border: 1px solid #007BFF;
     padding: 13px 24px;
     border-radius: 24px;
     cursor: pointer;
     font-size: 15px;
-    background-color: #007BFF;
-    color:#ffffff
+    background-color:blanchedalmond;
+    color: black;
 }
 
-.popular-courses article:first-of-type {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 75%;
-    margin-top: 90px;
+.courses {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif
+
 }
 
-.popular-courses article:first-of-type img {
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 20px;
+.courses h2 {
+    font-size:40px;
+    color: #111827;   
+    line-height: normal;
+    max-width: 760px;
+    text-align: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
-
-.popular-courses article:first-of-type div {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    /* width: 50%; */
-}
-
-
-
 /* @media (max-width: 768px) {
+
     .hero {
         padding-top: 120px;
     }
