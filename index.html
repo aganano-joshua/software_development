@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learnify - Online Learning Platform</title>
-    <link rel="stylesheet" href="./style/style.css"/>
+    <link rel="stylesheet" href="./style/style.css" />
     <link rel="icon" href="images/learnify-mark.png" type="image/png" />
     <script src="https://kit.fontawesome.com/97c6552ba7.js" crossorigin="anonymous"></script>
   </head>
@@ -12,6 +12,8 @@
     <div class="nav-container">
       <header>
         <div class="logo-container">
+          <i class="fa-solid fa-thumbs-up"></i>
+          <i class="fa-brands fa-accessible-icon"></i>
           <img
             src="images/learnify-mark.png"
             alt="Learnify logo"
@@ -37,7 +39,6 @@
     </div>
 
     <main>
-
       <!-- Hero Section -->
       <section class="hero">
         <p>Learn online at your own pace</p>
@@ -75,36 +76,39 @@
           progress.
         </p>
 
-        <article>
-          <h3>Expert Instructors</h3>
-          <p>
-            Learn from professionals who teach practical skills used in real
-            workplaces.
-          </p>
-        </article>
+        <div class="features-accordion">
+          <details name="features" open>
+            <summary>Expert Instructors</summary>
+            <p>
+              Learn from professionals who teach practical skills used in real
+              workplaces.
+            </p>
+          </details>
 
-        <article>
-          <h3>Project-Based Lessons</h3>
-          <p>
-            Build portfolio-ready projects while learning concepts step by step.
-          </p>
-        </article>
+          <details name="features">
+            <summary>Project-Based Lessons</summary>
+            <p>
+              Build portfolio-ready projects while learning concepts step by
+              step.
+            </p>
+          </details>
 
-        <article>
-          <h3>Flexible Schedule</h3>
-          <p>
-            Study anytime with bite-sized videos, quizzes, assignments, and
-            notes.
-          </p>
-        </article>
+          <details name="features">
+            <summary>Flexible Schedule</summary>
+            <p>
+              Study anytime with bite-sized videos, quizzes, assignments, and
+              notes.
+            </p>
+          </details>
 
-        <article>
-          <h3>Certificates</h3>
-          <p>
-            Earn certificates you can share on your resume, LinkedIn, or
-            portfolio.
-          </p>
-        </article>
+          <details name="features">
+            <summary>Certificates</summary>
+            <p>
+              Earn certificates you can share on your resume, LinkedIn, or
+              portfolio.
+            </p>
+          </details>
+        </div>
       </section>
 
       <section class="learning-paths">
@@ -151,13 +155,15 @@
             width="320"
             height="200"
           />
-          <h3>UI/UX Design Foundations</h3>
-          <p>
-            User research, wireframes, visual design, prototypes, and usability
-            testing.
-          </p>
-          <p><strong>10 weeks</strong> · Beginner</p>
-          <button type="button">Enroll Now</button>
+          <div>
+            <h3>UI/UX Design Foundations</h3>
+            <p>
+              User research, wireframes, visual design, prototypes, and
+              usability testing.
+            </p>
+            <p><strong>10 weeks</strong> · Beginner</p>
+            <button type="button">Enroll Now</button>
+          </div>
         </article>
       </section>
 

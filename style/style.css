@@ -81,6 +81,7 @@ header {
     gap: 18px;
     text-align: center;
     background-color: #f7fbff;
+    padding-bottom: 140px;
 }
 
 .hero > p:first-child {
